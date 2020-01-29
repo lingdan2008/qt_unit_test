@@ -1,4 +1,4 @@
-QT += testlib
+QT += testlib widgets testlib
 QT -= gui
 
 CONFIG += c++11 console
@@ -17,7 +17,9 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    calc.cpp
+    calc.cpp \
+    testgui.cpp
 
 HEADERS += \
-    calc.h
+    calc.h \
+    testgui.h

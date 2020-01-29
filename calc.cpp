@@ -1,7 +1,6 @@
 #include "calc.h"
 #include <QtTest>
 
-
 Calc::Calc()
 {
     qDebug() << __FUNCTION__;
@@ -41,4 +40,4 @@ void Calc::test_case3_data()
     QTest::addRow("2") << 3 << add(1, 2);
 }
 
-QTEST_APPLESS_MAIN(Calc)
+//QTEST_APPLESS_MAIN(Calc)
